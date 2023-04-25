@@ -1,6 +1,34 @@
 # Git-Tutorial
 
+## List of useful commands for working with git
 ## Список корисних команд для роботи з git
+
+1. git clone - copies the repository (folder with files) to the computer
+2. git branch "branchName" - creates a branch with the name "branchName"
+3. git checkout "branchName" - switches to the branch with the name "branchName"
+4. git checkout -b "branchName" - create a branch with the name "branchName" and switch to it
+5. git add . - save changes in files
+6. git commit -m "commit message" - we sign the saved changes in the files
+7. git push - we send changes to the github site
+8. git pull - we get the latest changes from the github site
+9. git status - show the status of the project
+10. git branch - show the list of branches in the project
+11. git branch -r - show the list of branches on the github site
+12. git branch -a - show the list of branches on the computer and on the github site
+13. git fetch - we get changes from the github site
+14. git stash - save unsaved changes in files and put them on the clipboard
+15. git stash apply - paste the saved changes from the clipboard
+16. git merge "banchName" - merge the branch with the name "branchName" into the current branch
+17. git merge --abort - cancel merging branches
+18. git branch -d branchName - removes the branch locally from the project
+19. git push origin --delete name - deletes the branch from the github site
+20. git diff - shows line segments between two versions of the file (between two commits)
+21. git log - shows the history of commits
+22. cd gitTutorial - go to the gitTutorial folder
+
+In order to exit the commit view mode, use the q key (applies to commands #20 and #21)
+
+
 
 1. git clone - копіює репозиторій(папку з файлами) на компютер
 2. git branch "branchName" - створює гілку з назвою "branchName"

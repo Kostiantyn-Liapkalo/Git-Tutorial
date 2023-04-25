@@ -1,7 +1,6 @@
 # Git-Tutorial
 
 ## List of useful commands for working with git
-## Список корисних команд для роботи з git
 
 1. git clone - copies the repository (folder with files) to the computer
 2. git branch "branchName" - creates a branch with the name "branchName"
@@ -28,7 +27,7 @@
 
 In order to exit the commit view mode, use the q key (applies to commands #20 and #21)
 
-
+## Список корисних команд для роботи з git
 
 1. git clone - копіює репозиторій(папку з файлами) на компютер
 2. git branch "branchName" - створює гілку з назвою "branchName"

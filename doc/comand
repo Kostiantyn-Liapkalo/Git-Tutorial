@@ -1,0 +1,54 @@
+
+########################
+## Git-commands EN/UA ##
+########################
+
+List of useful commands for working with git
+git clone - copies the repository (folder with files) to the computer
+git branch "branchName" - creates a branch with the name "branchName"
+git checkout "branchName" - switches to the branch with the name "branchName"
+git checkout -b "branchName" - create a branch with the name "branchName" and switch to it
+git add . - save changes in files
+git commit -m "commit message" - we sign the saved changes in the files
+git push - we send changes to the github site
+git pull - we get the latest changes from the github site
+git status - show the status of the project
+git branch - show the list of branches in the project
+git branch -r - show the list of branches on the github site
+git branch -a - show the list of branches on the computer and on the github site
+git fetch - we get changes from the github site
+git stash - save unsaved changes in files and put them on the clipboard
+git stash apply - paste the saved changes from the clipboard
+git merge "banchName" - merge the branch with the name "branchName" into the current branch
+git merge --abort - cancel merging branches
+git branch -d branchName - removes the branch locally from the project
+git push origin --delete name - deletes the branch from the github site
+git diff - shows line segments between two versions of the file (between two commits)
+git log - shows the history of commits
+cd gitTutorial - go to the gitTutorial folder
+In order to exit the commit view mode, use the q key (applies to commands #20 and #21)
+
+Список корисних команд для роботи з git
+git clone - копіює репозиторій(папку з файлами) на компютер
+git branch "branchName" - створює гілку з назвою "branchName"
+git checkout "branchName" - переходить на гілку з назвою "branchName"
+git checkout -b "branchName" - створюємо гілку з назвою "branchName" і переходимо на неї
+git add . - зберігаємо зміни в файлах
+git commit -m "commit message" - підписуємо збереженні зміни в файлах
+git push - відправляємо зміни на сайт github
+git pull - отримуємо останні зміни з сайту github
+git status - показуємо статус проекту
+git branch - показуємо список гілок в проекті
+git branch -r - показуємо список гілок на сайті github
+git branch -a - показуємо список гілок на компютері та на сайті github
+git fetch - отримуємо зміни з сайту github
+git stash - зберігаємо не збережені зміни в файлах і кладемо їх в буфер обміну
+git stash apply - вставляємо збережені зміни з буфера обміну
+git merge "banchName" - зливаємо гілку з назвою "branchName" в поточну гілку
+git merge --abort - відміняємо зливання гілок
+git branch -d branchName - видаляє гілку локально з проекту
+git push origin --delete name - видаляє гілку з сайту github
+git diff - показує відрізки рядків між двома версіями файлу (між двома комітами)
+git log - показує історію комітів
+cd gitTutorial - переходимо в папку gitTutorial
+Для того щоб вийти з режиму перегляду комітів використовуйте клавішу q (стосується команди №20 і №21)

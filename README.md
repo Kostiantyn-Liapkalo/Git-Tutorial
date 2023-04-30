@@ -1,4 +1,4 @@
-# Git-tutorial EN/UA
+# Git-commands EN/UA
 
 ## List of useful commands for working with git
 
